@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f5f1ea" />
+    <title>Stephanie SAT</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="topbar" aria-label="Flashcard status">
+        <div>
+          <p class="eyebrow">Stephanie SAT</p>
+          <h1>Vocabulary Flashcards</h1>
+        </div>
+        <div class="counter" id="counter">1 / 263</div>
+      </section>
+
+      <section class="stage" aria-live="polite">
+        <button class="card" id="card" type="button" aria-label="Flip flashcard">
+          <span class="card-face card-front" aria-hidden="false">
+            <span class="word" id="word">Loading</span>
+          </span>
+          <span class="card-face card-back" aria-hidden="true">
+            <span class="definition" id="definition"></span>
+            <span class="rule"></span>
+            <span class="field">
+              <span class="label">Synonyms</span>
+              <span id="synonyms"></span>
+            </span>
+            <span class="field">
+              <span class="label">Antonyms</span>
+              <span id="antonyms"></span>
+            </span>
+            <span class="field sentence">
+              <span class="label">Sentence</span>
+              <span id="sentence"></span>
+            </span>
+            <span class="field root">
+              <span class="label">Root</span>
+              <span id="root"></span>
+            </span>
+          </span>
+        </button>
+      </section>
+
+      <nav class="controls" aria-label="Card navigation">
+        <button class="nav-button" id="prev" type="button" aria-label="Previous word">
+          <span class="nav-icon" aria-hidden="true">‹</span>
+          <span>Previous</span>
+        </button>
+        <div class="progress-wrap" aria-hidden="true">
+          <div class="progress" id="progress"></div>
+        </div>
+        <button class="nav-button primary" id="next" type="button" aria-label="Next word">
+          <span>Next</span>
+          <span class="nav-icon" aria-hidden="true">›</span>
+        </button>
+      </nav>
+    </main>
+
+    <script src="data/cards.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
