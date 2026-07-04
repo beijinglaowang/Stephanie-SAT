@@ -83,6 +83,8 @@ h1 {
 }
 
 .card {
+  position: relative;
+  display: block;
   width: min(100%, 760px);
   aspect-ratio: 10.5 / 5.94;
   border: 0;
@@ -90,6 +92,7 @@ h1 {
   background: transparent;
   cursor: pointer;
   perspective: 1800px;
+  isolation: isolate;
   -webkit-tap-highlight-color: transparent;
 }
 
