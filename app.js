@@ -80,6 +80,7 @@ function getToken() {
 function setSyncStatus(text, kind = "") {
   elements.syncStatus.textContent = text;
   elements.syncToggle.classList.toggle("is-saving", kind === "saving");
+  elements.syncToggle.classList.toggle("is-warn", kind === "warn");
   elements.syncToggle.classList.toggle("is-error", kind === "error");
 }
 
@@ -208,9 +209,9 @@ async function loadRemoteStates() {
     const remote = decodeBase64Json(payload.content || "");
     state.remoteSha = payload.sha;
     mergeStates(remote.states);
-    setSyncStatus(getToken() ? "Synced" : "Read only");
+    setSyncStatus(getToken() ? "Synced" : "Setup sync", getToken() ? "" : "warn");
   } catch {
-    setSyncStatus("Local", "error");
+    setSyncStatus("Offline", "error");
   }
   render();
 }
@@ -232,7 +233,7 @@ async function refreshRemoteSha(mergeRemote = false) {
 async function persistRemote(retry = true) {
   const token = getToken();
   if (!token) {
-    setSyncStatus("Local", "error");
+    setSyncStatus("Saved here", "warn");
     return;
   }
 
@@ -274,7 +275,7 @@ function queueRemoteSave() {
   saveLocalStates();
   state.saveChain = state.saveChain
     .then(() => persistRemote())
-    .catch(() => setSyncStatus("Local", "error"));
+    .catch(() => setSyncStatus("Offline", "error"));
 }
 
 function toggleCurrentWord() {
@@ -301,7 +302,7 @@ function saveToken() {
 function clearToken() {
   localStorage.removeItem(TOKEN_KEY);
   elements.syncToken.value = "";
-  setSyncStatus("Read only");
+  setSyncStatus("Setup sync", "warn");
 }
 
 function handleTouchStart(event) {
