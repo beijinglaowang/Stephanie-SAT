@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#f5f1ea" />
     <title>Stephanie SAT</title>
-    <link rel="stylesheet" href="styles.css?v=2" />
+    <link rel="stylesheet" href="styles.css?v=3" />
   </head>
   <body>
     <main class="app-shell">
@@ -17,12 +17,36 @@
         <div class="counter" id="counter">1 / 263</div>
       </section>
 
+      <section class="listbar" aria-label="Word lists">
+        <button class="list-pill is-active" id="unknownFilter" type="button">
+          <span class="list-icon" aria-hidden="true">?</span>
+          <span>Unknown</span>
+          <strong id="unknownCount">263</strong>
+        </button>
+        <button class="list-pill" id="knownFilter" type="button">
+          <span class="list-icon" aria-hidden="true">&#10003;</span>
+          <span>Known</span>
+          <strong id="knownCount">0</strong>
+        </button>
+        <button class="sync-pill" id="syncToggle" type="button">
+          <span id="syncStatus">Sync</span>
+        </button>
+      </section>
+
+      <section class="sync-panel" id="syncPanel" aria-label="Sync settings" hidden>
+        <input id="syncToken" type="password" autocomplete="off" placeholder="GitHub token" />
+        <button class="mini-button" id="saveToken" type="button">Save</button>
+        <button class="mini-button ghost" id="clearToken" type="button">Clear</button>
+      </section>
+
       <section class="stage" aria-live="polite">
         <button class="card" id="card" type="button" aria-label="Flip flashcard">
           <span class="card-face card-front" aria-hidden="false">
+            <span class="state-badge" id="frontBadge">Unknown</span>
             <span class="word" id="word">Loading</span>
           </span>
           <span class="card-face card-back" aria-hidden="true">
+            <span class="state-badge" id="backBadge">Unknown</span>
             <span class="definition" id="definition"></span>
             <span class="rule"></span>
             <span class="field">
@@ -50,6 +74,7 @@
           <span class="nav-icon" aria-hidden="true">&lsaquo;</span>
           <span>Previous</span>
         </button>
+        <button class="go-button" id="go" type="button">Go</button>
         <div class="progress-wrap" aria-hidden="true">
           <div class="progress" id="progress"></div>
         </div>
@@ -60,7 +85,7 @@
       </nav>
     </main>
 
-    <script src="data/cards.js?v=2"></script>
-    <script src="app.js?v=2"></script>
+    <script src="data/cards.js?v=3"></script>
+    <script src="app.js?v=3"></script>
   </body>
 </html>
