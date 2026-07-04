@@ -1,8 +1,8 @@
 const GITHUB_STATE_URL = "https://api.github.com/repos/beijinglaowang/Stephanie-SAT/contents/data/state.json";
 const LOCAL_STATE_KEY = "stephanieSatWordStates";
 const TOKEN_KEY = "stephanieSatGithubToken";
-const KNOWN_LABEL = "\u2713\u2713\u2713";
-const UNKNOWN_LABEL = "???";
+const KNOWN_LABEL = "\u2713";
+const UNKNOWN_LABEL = "?";
 
 const state = {
   cards: [],
