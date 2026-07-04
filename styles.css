@@ -35,8 +35,8 @@ button {
   margin: 0 auto;
   padding: 28px clamp(16px, 4vw, 42px) 32px;
   display: grid;
-  grid-template-rows: auto 1fr auto;
-  gap: clamp(18px, 3vw, 30px);
+  grid-template-rows: auto auto auto 1fr auto;
+  gap: clamp(12px, 2.4vw, 24px);
 }
 
 .topbar {
@@ -74,6 +74,110 @@ h1 {
   text-align: center;
   box-shadow: 0 12px 30px rgba(48, 39, 27, 0.08);
   white-space: nowrap;
+}
+
+.listbar {
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  gap: 10px;
+  align-items: center;
+}
+
+.list-pill,
+.sync-pill,
+.mini-button {
+  min-height: 46px;
+  border: 1px solid rgba(23, 25, 31, 0.13);
+  border-radius: 999px;
+  background: rgba(255, 253, 248, 0.72);
+  color: var(--accent-strong);
+  box-shadow: 0 10px 24px rgba(48, 39, 27, 0.08);
+  cursor: pointer;
+}
+
+.list-pill {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  padding: 0 14px;
+  font-weight: 850;
+}
+
+.list-pill strong {
+  min-width: 28px;
+  color: var(--ink);
+  font-size: 0.86rem;
+}
+
+.list-pill.is-active {
+  background: #173f49;
+  color: #fffdf8;
+}
+
+.list-pill.is-active strong {
+  color: #fffdf8;
+}
+
+.list-icon {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: inline-grid;
+  place-items: center;
+  background: rgba(199, 154, 69, 0.2);
+  font-size: 0.88rem;
+  font-weight: 900;
+}
+
+.sync-pill {
+  padding: 0 15px;
+  font-size: 0.86rem;
+  font-weight: 850;
+}
+
+.sync-pill.is-saving {
+  color: #805f1d;
+}
+
+.sync-pill.is-error {
+  color: #9a2d2d;
+}
+
+.sync-panel {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto auto;
+  gap: 10px;
+}
+
+.sync-panel[hidden] {
+  display: none;
+}
+
+.sync-panel input {
+  min-height: 46px;
+  min-width: 0;
+  border: 1px solid rgba(23, 25, 31, 0.14);
+  border-radius: 999px;
+  padding: 0 16px;
+  background: rgba(255, 253, 248, 0.86);
+  color: var(--ink);
+  font: inherit;
+  outline: none;
+}
+
+.sync-panel input:focus {
+  border-color: rgba(29, 94, 107, 0.52);
+  box-shadow: 0 0 0 4px rgba(29, 94, 107, 0.13);
+}
+
+.mini-button {
+  padding: 0 16px;
+  font-weight: 850;
+}
+
+.mini-button.ghost {
+  background: rgba(255, 253, 248, 0.42);
 }
 
 .stage {
@@ -128,6 +232,28 @@ h1 {
   padding: clamp(28px, 4.4vw, 46px) clamp(22px, 4vw, 46px) clamp(18px, 3vw, 30px);
   text-align: left;
   transform: rotateY(180deg);
+}
+
+.state-badge {
+  position: absolute;
+  top: clamp(14px, 2.8vw, 24px);
+  right: clamp(14px, 2.8vw, 24px);
+  border: 1px solid rgba(23, 25, 31, 0.12);
+  border-radius: 999px;
+  padding: 6px 11px;
+  background: rgba(255, 253, 248, 0.8);
+  color: var(--accent-strong);
+  font-size: 0.76rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.state-badge.is-known {
+  color: #275236;
+}
+
+.state-badge.is-unknown {
+  color: #8b3d30;
 }
 
 .card.is-flipped .card-front {
@@ -189,12 +315,13 @@ h1 {
 
 .controls {
   display: grid;
-  grid-template-columns: auto minmax(90px, 1fr) auto;
+  grid-template-columns: auto auto minmax(90px, 1fr) auto;
   align-items: center;
   gap: clamp(10px, 2vw, 18px);
 }
 
-.nav-button {
+.nav-button,
+.go-button {
   min-height: 54px;
   border: 1px solid rgba(23, 25, 31, 0.13);
   border-radius: 999px;
@@ -216,16 +343,33 @@ h1 {
   color: #fffdf8;
 }
 
-.nav-button:hover {
+.go-button {
+  min-width: 86px;
+  background: #c79a45;
+  color: #17191f;
+}
+
+.go-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.48;
+}
+
+.nav-button:hover,
+.go-button:hover:not(:disabled) {
   transform: translateY(-1px);
   box-shadow: 0 16px 32px rgba(48, 39, 27, 0.14);
 }
 
-.nav-button:active {
+.nav-button:active,
+.go-button:active {
   transform: translateY(0);
 }
 
-.nav-button:focus-visible {
+.nav-button:focus-visible,
+.go-button:focus-visible,
+.list-pill:focus-visible,
+.sync-pill:focus-visible,
+.mini-button:focus-visible {
   outline: 4px solid rgba(29, 94, 107, 0.26);
   outline-offset: 3px;
 }
@@ -259,6 +403,18 @@ h1 {
     align-items: start;
   }
 
+  .listbar {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .sync-pill {
+    grid-column: 1 / -1;
+  }
+
+  .sync-panel {
+    grid-template-columns: 1fr;
+  }
+
   h1 {
     max-width: 9ch;
   }
@@ -278,7 +434,7 @@ h1 {
   }
 
   .controls {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
   .progress-wrap {
@@ -286,7 +442,8 @@ h1 {
     grid-row: 1;
   }
 
-  .nav-button {
+  .nav-button,
+  .go-button {
     grid-row: 2;
     padding: 0 14px;
   }
