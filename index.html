@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#f5f1ea" />
     <title>Stephanie SAT</title>
-    <link rel="stylesheet" href="styles.css?v=4" />
+    <link rel="stylesheet" href="styles.css?v=5" />
   </head>
   <body>
     <main class="app-shell">
@@ -18,14 +18,12 @@
       </section>
 
       <section class="listbar" aria-label="Word lists">
-        <button class="list-pill is-active" id="unknownFilter" type="button">
+        <button class="list-pill is-active" id="unknownFilter" type="button" aria-label="Unknown words">
           <span class="list-icon" aria-hidden="true">?</span>
-          <span>???</span>
           <strong id="unknownCount">263</strong>
         </button>
-        <button class="list-pill" id="knownFilter" type="button">
+        <button class="list-pill" id="knownFilter" type="button" aria-label="Known words">
           <span class="list-icon" aria-hidden="true">&#10003;</span>
-          <span>&#10003;&#10003;&#10003;</span>
           <strong id="knownCount">0</strong>
         </button>
         <button class="sync-pill" id="syncToggle" type="button">
@@ -42,11 +40,11 @@
       <section class="stage" aria-live="polite">
         <button class="card" id="card" type="button" aria-label="Flip flashcard">
           <span class="card-face card-front" aria-hidden="false">
-            <span class="state-badge" id="frontBadge">???</span>
+            <span class="state-badge" id="frontBadge">?</span>
             <span class="word" id="word">Loading</span>
           </span>
           <span class="card-face card-back" aria-hidden="true">
-            <span class="state-badge" id="backBadge">???</span>
+            <span class="state-badge" id="backBadge">?</span>
             <span class="definition" id="definition"></span>
             <span class="rule"></span>
             <span class="field">
@@ -88,7 +86,7 @@
       </nav>
     </main>
 
-    <script src="data/cards.js?v=4"></script>
-    <script src="app.js?v=4"></script>
+    <script src="data/cards.js?v=5"></script>
+    <script src="app.js?v=5"></script>
   </body>
 </html>
