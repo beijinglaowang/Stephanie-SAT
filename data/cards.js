@@ -1143,11 +1143,11 @@ window.STEPHANIE_SAT_CARDS = [
     "card_number": "115",
     "word": "Strenuous",
     "part_of_speech": "adjective",
-    "definition": "Requiring great effort or energy.",
-    "sample_sentence": "The hikers avoided the most strenuous trail in the heat.",
-    "synonyms_top_3": "arduous, demanding, vigorous",
-    "antonyms_top_3": "easy, effortless, gentle",
-    "root": "Latin strenuus, vigorous."
+    "definition": "vigorous; marked by energy and stamina",
+    "sample_sentence": "The strenuous hike left everyone exhausted but proud.",
+    "synonyms_top_3": "difficult, arduous, tough",
+    "antonyms_top_3": "effortless, easy, simple",
+    "root": "Latin strenuus, active or brisk."
   },
   {
     "card_number": "116",
@@ -1271,36 +1271,6 @@ window.STEPHANIE_SAT_CARDS = [
   },
   {
     "card_number": "128",
-    "word": "Assail",
-    "part_of_speech": "verb",
-    "definition": "To attack physically or verbally.",
-    "sample_sentence": "Critics assailed the proposal as too expensive.",
-    "synonyms_top_3": "attack, assault, bombard",
-    "antonyms_top_3": "defend, protect, praise",
-    "root": "Latin assalire, leap upon."
-  },
-  {
-    "card_number": "129",
-    "word": "Diffident",
-    "part_of_speech": "adjective",
-    "definition": "Shy or lacking self-confidence.",
-    "sample_sentence": "The diffident speaker grew calmer after the first question.",
-    "synonyms_top_3": "shy, timid, hesitant",
-    "antonyms_top_3": "confident, bold, assertive",
-    "root": "Latin dis-, away + fidere, trust."
-  },
-  {
-    "card_number": "130",
-    "word": "Eccentric",
-    "part_of_speech": "adjective",
-    "definition": "Unconventional or oddly different.",
-    "sample_sentence": "The inventor had an eccentric habit of sketching ideas on napkins.",
-    "synonyms_top_3": "unconventional, quirky, peculiar",
-    "antonyms_top_3": "conventional, ordinary, normal",
-    "root": "Greek ek-, out + kentron, center."
-  },
-  {
-    "card_number": "131",
     "word": "Impeccable",
     "part_of_speech": "adjective",
     "definition": "Flawless or without mistakes.",
@@ -1310,17 +1280,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin in-, not + peccare, sin."
   },
   {
-    "card_number": "132",
-    "word": "Despondent",
-    "part_of_speech": "adjective",
-    "definition": "Very discouraged or without hope.",
-    "sample_sentence": "She felt despondent after several failed interviews.",
-    "synonyms_top_3": "dejected, hopeless, gloomy",
-    "antonyms_top_3": "hopeful, cheerful, encouraged",
-    "root": "Latin de-, down + spondere, promise."
-  },
-  {
-    "card_number": "133",
+    "card_number": "129",
     "word": "Infallible",
     "part_of_speech": "adjective",
     "definition": "Incapable of making mistakes or being wrong.",
@@ -1330,7 +1290,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin in-, not + fallere, deceive or fail."
   },
   {
-    "card_number": "134",
+    "card_number": "130",
     "word": "Impel",
     "part_of_speech": "verb",
     "definition": "To drive, urge, or force someone to act.",
@@ -1340,7 +1300,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin in-, toward + pellere, drive."
   },
   {
-    "card_number": "135",
+    "card_number": "131",
     "word": "Indelible",
     "part_of_speech": "adjective",
     "definition": "Impossible to remove, forget, or erase.",
@@ -1350,7 +1310,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin in-, not + delere, erase."
   },
   {
-    "card_number": "136",
+    "card_number": "132",
     "word": "Hubris",
     "part_of_speech": "noun",
     "definition": "Excessive pride or self-confidence.",
@@ -1360,7 +1320,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Greek hybris, pride or outrage."
   },
   {
-    "card_number": "137",
+    "card_number": "133",
     "word": "Valor",
     "part_of_speech": "noun",
     "definition": "Great courage, especially in danger.",
@@ -1370,7 +1330,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin valor, worth or courage."
   },
   {
-    "card_number": "138",
+    "card_number": "134",
     "word": "Piety",
     "part_of_speech": "noun",
     "definition": "Religious devotion or dutiful respect.",
@@ -1380,7 +1340,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin pietas, dutifulness."
   },
   {
-    "card_number": "139",
+    "card_number": "135",
     "word": "Remit",
     "part_of_speech": "verb",
     "definition": "To send payment, cancel a debt, or refer a matter.",
@@ -1390,17 +1350,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin re-, back + mittere, send."
   },
   {
-    "card_number": "140",
-    "word": "Spurious",
-    "part_of_speech": "adjective",
-    "definition": "False, fake, or not genuine.",
-    "sample_sentence": "The website spread spurious claims about the medicine.",
-    "synonyms_top_3": "false, bogus, counterfeit",
-    "antonyms_top_3": "genuine, authentic, valid",
-    "root": "Latin spurius, illegitimate or false."
-  },
-  {
-    "card_number": "141",
+    "card_number": "136",
     "word": "Unkempt",
     "part_of_speech": "adjective",
     "definition": "Messy, untidy, or not cared for.",
@@ -1410,7 +1360,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "un- + kempt; Old English cemban, comb."
   },
   {
-    "card_number": "142",
+    "card_number": "137",
     "word": "Periodical",
     "part_of_speech": "noun",
     "definition": "A magazine or journal published at regular intervals.",
@@ -1420,7 +1370,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Greek periodos, going around; cycle."
   },
   {
-    "card_number": "143",
+    "card_number": "138",
     "word": "Castigate",
     "part_of_speech": "verb",
     "definition": "To criticize or punish severely.",
@@ -1430,7 +1380,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin castigare, correct or punish."
   },
   {
-    "card_number": "144",
+    "card_number": "139",
     "word": "Imminent",
     "part_of_speech": "adjective",
     "definition": "About to happen very soon.",
@@ -1440,7 +1390,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin imminere, overhang or threaten."
   },
   {
-    "card_number": "145",
+    "card_number": "140",
     "word": "Exemplify",
     "part_of_speech": "verb",
     "definition": "To serve as a clear example of something.",
@@ -1450,17 +1400,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin exemplum, example + facere, make."
   },
   {
-    "card_number": "146",
-    "word": "Acumen",
-    "part_of_speech": "noun",
-    "definition": "Sharp judgment or practical insight.",
-    "sample_sentence": "Her financial acumen helped the company survive.",
-    "synonyms_top_3": "insight, shrewdness, discernment",
-    "antonyms_top_3": "ignorance, stupidity, naivete",
-    "root": "Latin acuere, sharpen."
-  },
-  {
-    "card_number": "147",
+    "card_number": "141",
     "word": "Nebulous",
     "part_of_speech": "adjective",
     "definition": "Vague, unclear, or cloudy.",
@@ -1470,7 +1410,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin nebula, mist or cloud."
   },
   {
-    "card_number": "148",
+    "card_number": "142",
     "word": "Precarious",
     "part_of_speech": "adjective",
     "definition": "Dangerously unstable or uncertain.",
@@ -1480,7 +1420,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin precarius, obtained by prayer."
   },
   {
-    "card_number": "149",
+    "card_number": "143",
     "word": "Reprisal",
     "part_of_speech": "noun",
     "definition": "An act of retaliation for an injury or offense.",
@@ -1490,7 +1430,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Old French repris, taken back."
   },
   {
-    "card_number": "150",
+    "card_number": "144",
     "word": "Stipulate",
     "part_of_speech": "verb",
     "definition": "To demand or specify as a condition.",
@@ -1500,7 +1440,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin stipulari, demand a promise."
   },
   {
-    "card_number": "151",
+    "card_number": "145",
     "word": "Voluminous",
     "part_of_speech": "adjective",
     "definition": "Very large, full, or containing much.",
@@ -1510,7 +1450,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin volumen, roll or volume."
   },
   {
-    "card_number": "152",
+    "card_number": "146",
     "word": "Pragmatic",
     "part_of_speech": "adjective",
     "definition": "Practical and focused on results.",
@@ -1520,7 +1460,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Greek pragma, deed or matter."
   },
   {
-    "card_number": "153",
+    "card_number": "147",
     "word": "Stagnate",
     "part_of_speech": "verb",
     "definition": "To stop developing, moving, or progressing.",
@@ -1530,7 +1470,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin stagnum, standing water."
   },
   {
-    "card_number": "154",
+    "card_number": "148",
     "word": "Ascertain",
     "part_of_speech": "verb",
     "definition": "To find out or determine with certainty.",
@@ -1540,7 +1480,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Old French acertener, make certain."
   },
   {
-    "card_number": "155",
+    "card_number": "149",
     "word": "Dissolution",
     "part_of_speech": "noun",
     "definition": "The ending, breaking apart, or disintegration of something.",
@@ -1550,7 +1490,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin dissolvere, loosen apart."
   },
   {
-    "card_number": "156",
+    "card_number": "150",
     "word": "Dignitary",
     "part_of_speech": "noun",
     "definition": "A person with high rank or important office.",
@@ -1560,27 +1500,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin dignitas, worthiness."
   },
   {
-    "card_number": "157",
-    "word": "Brusque",
-    "part_of_speech": "adjective",
-    "definition": "Abrupt or blunt in manner.",
-    "sample_sentence": "His brusque reply made the conversation feel tense.",
-    "synonyms_top_3": "abrupt, curt, blunt",
-    "antonyms_top_3": "courteous, tactful, gracious",
-    "root": "Italian brusco, sharp or rough."
-  },
-  {
-    "card_number": "158",
-    "word": "Arbitrary",
-    "part_of_speech": "adjective",
-    "definition": "Based on whim rather than reason or rule.",
-    "sample_sentence": "The students complained that the deadline felt arbitrary.",
-    "synonyms_top_3": "random, capricious, whimsical",
-    "antonyms_top_3": "reasoned, systematic, justified",
-    "root": "Latin arbiter, judge."
-  },
-  {
-    "card_number": "159",
+    "card_number": "151",
     "word": "Quixotic",
     "part_of_speech": "adjective",
     "definition": "Idealistic in an impractical or unrealistic way.",
@@ -1590,7 +1510,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "From Don Quixote, idealistic dreamer."
   },
   {
-    "card_number": "160",
+    "card_number": "152",
     "word": "Relegate",
     "part_of_speech": "verb",
     "definition": "To assign to a lower or less important position.",
@@ -1600,7 +1520,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin re-, back + legare, send."
   },
   {
-    "card_number": "161",
+    "card_number": "153",
     "word": "Penchant",
     "part_of_speech": "noun",
     "definition": "A strong liking or tendency.",
@@ -1610,17 +1530,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "French penchant, inclination."
   },
   {
-    "card_number": "162",
-    "word": "Pragmatic",
-    "part_of_speech": "adjective",
-    "definition": "Practical and focused on results.",
-    "sample_sentence": "The team chose a pragmatic solution that worked quickly.",
-    "synonyms_top_3": "practical, realistic, sensible",
-    "antonyms_top_3": "idealistic, impractical, unrealistic",
-    "root": "Greek pragma, deed or matter."
-  },
-  {
-    "card_number": "163",
+    "card_number": "154",
     "word": "Prowess",
     "part_of_speech": "noun",
     "definition": "Exceptional skill or ability.",
@@ -1630,7 +1540,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Old French proece, valor or bravery."
   },
   {
-    "card_number": "164",
+    "card_number": "155",
     "word": "Reticent",
     "part_of_speech": "adjective",
     "definition": "Reserved or unwilling to speak freely.",
@@ -1640,7 +1550,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin reticere, keep silent."
   },
   {
-    "card_number": "165",
+    "card_number": "156",
     "word": "Requisite",
     "part_of_speech": "adjective",
     "definition": "Necessary for a particular purpose.",
@@ -1650,7 +1560,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin requirere, seek or require."
   },
   {
-    "card_number": "166",
+    "card_number": "157",
     "word": "Preposterous",
     "part_of_speech": "adjective",
     "definition": "Absurd or contrary to reason.",
@@ -1660,7 +1570,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin prae, before + posterus, after."
   },
   {
-    "card_number": "167",
+    "card_number": "158",
     "word": "Coup",
     "part_of_speech": "noun",
     "definition": "A sudden, successful move or seizure of power.",
@@ -1670,7 +1580,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "French coup, blow or stroke."
   },
   {
-    "card_number": "168",
+    "card_number": "159",
     "word": "Daunting",
     "part_of_speech": "adjective",
     "definition": "Intimidating or seeming difficult to deal with.",
@@ -1680,7 +1590,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Middle English daunten, tame or subdue."
   },
   {
-    "card_number": "169",
+    "card_number": "160",
     "word": "Dispel",
     "part_of_speech": "verb",
     "definition": "To drive away or make disappear.",
@@ -1690,7 +1600,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin dis-, apart + pellere, drive."
   },
   {
-    "card_number": "170",
+    "card_number": "161",
     "word": "Precipitous",
     "part_of_speech": "adjective",
     "definition": "Very steep or suddenly happening.",
@@ -1700,7 +1610,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin praeceps, headlong or steep."
   },
   {
-    "card_number": "171",
+    "card_number": "162",
     "word": "Ostensible",
     "part_of_speech": "adjective",
     "definition": "Stated or appearing to be true, but possibly not.",
@@ -1710,7 +1620,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin ostendere, show."
   },
   {
-    "card_number": "172",
+    "card_number": "163",
     "word": "Perfunctory",
     "part_of_speech": "adjective",
     "definition": "Done with little care or interest.",
@@ -1720,17 +1630,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin perfungi, get through or perform."
   },
   {
-    "card_number": "173",
-    "word": "Precarious",
-    "part_of_speech": "adjective",
-    "definition": "Dangerously unstable or uncertain.",
-    "sample_sentence": "The ladder stood in a precarious position.",
-    "synonyms_top_3": "unstable, risky, insecure",
-    "antonyms_top_3": "secure, stable, safe",
-    "root": "Latin precarius, obtained by prayer."
-  },
-  {
-    "card_number": "174",
+    "card_number": "164",
     "word": "Prevail",
     "part_of_speech": "verb",
     "definition": "To succeed, win, or prove more powerful.",
@@ -1740,7 +1640,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin praevalere, be stronger."
   },
   {
-    "card_number": "175",
+    "card_number": "165",
     "word": "Recalcitrant",
     "part_of_speech": "adjective",
     "definition": "Stubbornly resistant to authority or control.",
@@ -1750,7 +1650,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin re-, back + calcitrare, kick."
   },
   {
-    "card_number": "176",
+    "card_number": "166",
     "word": "Rebuff",
     "part_of_speech": "verb",
     "definition": "To reject someone or something bluntly.",
@@ -1760,7 +1660,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Italian ribuffare, repel or rebuke."
   },
   {
-    "card_number": "177",
+    "card_number": "167",
     "word": "Onslaught",
     "part_of_speech": "noun",
     "definition": "A fierce attack or overwhelming rush.",
@@ -1770,7 +1670,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "English on + slaught, attack or strike."
   },
   {
-    "card_number": "178",
+    "card_number": "168",
     "word": "Banter",
     "part_of_speech": "noun",
     "definition": "Playful, teasing conversation.",
@@ -1780,17 +1680,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Origin obscure; 17th-century English playful talk."
   },
   {
-    "card_number": "179",
-    "word": "Congenial",
-    "part_of_speech": "adjective",
-    "definition": "Pleasant, friendly, or well suited.",
-    "sample_sentence": "The cafe provided a congenial place to study.",
-    "synonyms_top_3": "pleasant, agreeable, compatible",
-    "antonyms_top_3": "unpleasant, disagreeable, incompatible",
-    "root": "Latin con-, with + genius, nature or spirit."
-  },
-  {
-    "card_number": "180",
+    "card_number": "169",
     "word": "Foment",
     "part_of_speech": "verb",
     "definition": "To stir up or encourage trouble or unrest.",
@@ -1800,17 +1690,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin fovere, warm; fomentum, warm compress."
   },
   {
-    "card_number": "181",
-    "word": "Incredulous",
-    "part_of_speech": "adjective",
-    "definition": "Unwilling or unable to believe something.",
-    "sample_sentence": "She gave him an incredulous look after the excuse.",
-    "synonyms_top_3": "skeptical, doubtful, disbelieving",
-    "antonyms_top_3": "credulous, trusting, convinced",
-    "root": "Latin in-, not + credere, believe."
-  },
-  {
-    "card_number": "182",
+    "card_number": "170",
     "word": "Perpetual",
     "part_of_speech": "adjective",
     "definition": "Continuing forever or happening repeatedly.",
@@ -1820,7 +1700,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin perpetuus, continuous."
   },
   {
-    "card_number": "183",
+    "card_number": "171",
     "word": "Portent",
     "part_of_speech": "noun",
     "definition": "A sign or warning that something important may happen.",
@@ -1830,7 +1710,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin portendere, foretell."
   },
   {
-    "card_number": "184",
+    "card_number": "172",
     "word": "Protracted",
     "part_of_speech": "adjective",
     "definition": "Lasting longer than expected.",
@@ -1840,7 +1720,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin pro-, forth + trahere, draw."
   },
   {
-    "card_number": "185",
+    "card_number": "173",
     "word": "Raucous",
     "part_of_speech": "adjective",
     "definition": "Loud, rough, and disorderly.",
@@ -1850,7 +1730,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin raucus, hoarse."
   },
   {
-    "card_number": "186",
+    "card_number": "174",
     "word": "Repudiate",
     "part_of_speech": "verb",
     "definition": "To reject or refuse to accept.",
@@ -1860,7 +1740,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin repudiare, reject or divorce."
   },
   {
-    "card_number": "187",
+    "card_number": "175",
     "word": "Opulent",
     "part_of_speech": "adjective",
     "definition": "Rich, luxurious, or lavish.",
@@ -1870,7 +1750,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin opulentus, wealthy."
   },
   {
-    "card_number": "188",
+    "card_number": "176",
     "word": "Ornate",
     "part_of_speech": "adjective",
     "definition": "Highly decorated or elaborate.",
@@ -1880,7 +1760,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin ornare, adorn."
   },
   {
-    "card_number": "189",
+    "card_number": "177",
     "word": "Wreak",
     "part_of_speech": "verb",
     "definition": "To cause great damage or harm.",
@@ -1890,7 +1770,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Old English wrecan, drive or avenge."
   },
   {
-    "card_number": "190",
+    "card_number": "178",
     "word": "Anomaly",
     "part_of_speech": "noun",
     "definition": "Something that differs from what is normal or expected.",
@@ -1900,7 +1780,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Greek anomalia, irregularity."
   },
   {
-    "card_number": "191",
+    "card_number": "179",
     "word": "Assimilate",
     "part_of_speech": "verb",
     "definition": "To absorb, integrate, or become similar to a group.",
@@ -1910,7 +1790,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin ad-, to + similis, like."
   },
   {
-    "card_number": "192",
+    "card_number": "180",
     "word": "Acquiesce",
     "part_of_speech": "verb",
     "definition": "To accept something reluctantly but without protest.",
@@ -1920,7 +1800,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin ad-, to + quiescere, rest."
   },
   {
-    "card_number": "193",
+    "card_number": "181",
     "word": "Apprehension",
     "part_of_speech": "noun",
     "definition": "Anxiety about the future; also understanding or capture.",
@@ -1930,7 +1810,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin apprehendere, seize or grasp."
   },
   {
-    "card_number": "194",
+    "card_number": "182",
     "word": "Ostentatious",
     "part_of_speech": "adjective",
     "definition": "Showy in a way meant to impress others.",
@@ -1940,7 +1820,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin ostentare, display."
   },
   {
-    "card_number": "195",
+    "card_number": "183",
     "word": "Latent",
     "part_of_speech": "adjective",
     "definition": "Existing but not yet active or visible.",
@@ -1950,7 +1830,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin latere, lie hidden."
   },
   {
-    "card_number": "196",
+    "card_number": "184",
     "word": "Morass",
     "part_of_speech": "noun",
     "definition": "A complicated, confusing, or muddy situation.",
@@ -1960,7 +1840,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Dutch moeras, marsh."
   },
   {
-    "card_number": "197",
+    "card_number": "185",
     "word": "Onerous",
     "part_of_speech": "adjective",
     "definition": "Burdensome, difficult, or requiring much effort.",
@@ -1970,7 +1850,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin onus, burden."
   },
   {
-    "card_number": "198",
+    "card_number": "186",
     "word": "Paucity",
     "part_of_speech": "noun",
     "definition": "A small or insufficient amount.",
@@ -1980,7 +1860,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin paucus, few."
   },
   {
-    "card_number": "199",
+    "card_number": "187",
     "word": "Reproach",
     "part_of_speech": "verb",
     "definition": "To express disapproval or disappointment.",
@@ -1990,7 +1870,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Old French reprochier, blame or bring back."
   },
   {
-    "card_number": "200",
+    "card_number": "188",
     "word": "Tribulation",
     "part_of_speech": "noun",
     "definition": "Great trouble, suffering, or distress.",
@@ -2000,17 +1880,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin tribulum, threshing board."
   },
   {
-    "card_number": "201",
-    "word": "Strident",
-    "part_of_speech": "adjective",
-    "definition": "Loud, harsh, and forceful.",
-    "sample_sentence": "A strident alarm sounded throughout the building.",
-    "synonyms_top_3": "harsh, shrill, grating",
-    "antonyms_top_3": "soft, gentle, soothing",
-    "root": "Latin stridere, creak or make a harsh sound."
-  },
-  {
-    "card_number": "202",
+    "card_number": "189",
     "word": "Abrasive",
     "part_of_speech": "adjective",
     "definition": "Harsh, rough, or irritating in manner or texture.",
@@ -2020,7 +1890,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin abradere, scrape away."
   },
   {
-    "card_number": "203",
+    "card_number": "190",
     "word": "Anarchy",
     "part_of_speech": "noun",
     "definition": "A state of disorder caused by lack of authority.",
@@ -2030,7 +1900,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Greek an-, without + arkhos, ruler."
   },
   {
-    "card_number": "204",
+    "card_number": "191",
     "word": "Benign",
     "part_of_speech": "adjective",
     "definition": "Kind, gentle, or not harmful.",
@@ -2040,7 +1910,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin benignus, kind; bene, well."
   },
   {
-    "card_number": "205",
+    "card_number": "192",
     "word": "Cynic",
     "part_of_speech": "noun",
     "definition": "A person who distrusts motives or expects selfishness.",
@@ -2050,7 +1920,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Greek kynikos, dog-like; Cynic philosophers."
   },
   {
-    "card_number": "206",
+    "card_number": "193",
     "word": "Myriad",
     "part_of_speech": "noun",
     "definition": "A very large number or great variety.",
@@ -2060,7 +1930,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Greek myrias, ten thousand."
   },
   {
-    "card_number": "207",
+    "card_number": "194",
     "word": "Incontrovertible",
     "part_of_speech": "adjective",
     "definition": "Impossible to dispute or deny.",
@@ -2070,7 +1940,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin in-, not + controvertere, dispute."
   },
   {
-    "card_number": "208",
+    "card_number": "195",
     "word": "Nadir",
     "part_of_speech": "noun",
     "definition": "The lowest point.",
@@ -2080,7 +1950,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Arabic nazir, opposite; lowest point in astronomy."
   },
   {
-    "card_number": "209",
+    "card_number": "196",
     "word": "Paragon",
     "part_of_speech": "noun",
     "definition": "A model of excellence or perfection.",
@@ -2090,17 +1960,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Italian paragone, touchstone or model."
   },
   {
-    "card_number": "210",
-    "word": "Remit",
-    "part_of_speech": "verb",
-    "definition": "To send payment, cancel a debt, or refer a matter.",
-    "sample_sentence": "Please remit the balance by the end of the month.",
-    "synonyms_top_3": "send, pay, refer",
-    "antonyms_top_3": "retain, withhold, keep",
-    "root": "Latin re-, back + mittere, send."
-  },
-  {
-    "card_number": "211",
+    "card_number": "197",
     "word": "Ramify",
     "part_of_speech": "verb",
     "definition": "To branch out or spread into subdivisions.",
@@ -2110,7 +1970,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin ramus, branch + facere, make."
   },
   {
-    "card_number": "212",
+    "card_number": "198",
     "word": "Scrutiny",
     "part_of_speech": "noun",
     "definition": "Careful and critical examination.",
@@ -2120,7 +1980,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin scrutari, search."
   },
   {
-    "card_number": "213",
+    "card_number": "199",
     "word": "Resilient",
     "part_of_speech": "adjective",
     "definition": "Able to recover quickly from difficulty.",
@@ -2130,7 +1990,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin resilire, spring back."
   },
   {
-    "card_number": "214",
+    "card_number": "200",
     "word": "Luster",
     "part_of_speech": "noun",
     "definition": "A soft shine or attractiveness.",
@@ -2140,17 +2000,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin lustrare, illuminate or shine."
   },
   {
-    "card_number": "215",
-    "word": "Abate",
-    "part_of_speech": "verb",
-    "definition": "To become less intense or severe.",
-    "sample_sentence": "The storm began to abate after midnight.",
-    "synonyms_top_3": "lessen, subside, diminish",
-    "antonyms_top_3": "intensify, increase, escalate",
-    "root": "Old French abatre, beat down."
-  },
-  {
-    "card_number": "216",
+    "card_number": "201",
     "word": "Mutiny",
     "part_of_speech": "noun",
     "definition": "A rebellion against authority, especially on a ship.",
@@ -2160,7 +2010,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Old French mutiner, revolt."
   },
   {
-    "card_number": "217",
+    "card_number": "202",
     "word": "Disparate",
     "part_of_speech": "adjective",
     "definition": "Essentially different or not comparable.",
@@ -2170,7 +2020,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin disparatus, separated."
   },
   {
-    "card_number": "218",
+    "card_number": "203",
     "word": "Sagacity",
     "part_of_speech": "noun",
     "definition": "Wisdom and good judgment.",
@@ -2180,17 +2030,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin sagax, wise or keen-scented."
   },
   {
-    "card_number": "219",
-    "word": "Hubris",
-    "part_of_speech": "noun",
-    "definition": "Excessive pride or self-confidence.",
-    "sample_sentence": "The founder's hubris made him ignore useful warnings.",
-    "synonyms_top_3": "arrogance, pride, conceit",
-    "antonyms_top_3": "humility, modesty, meekness",
-    "root": "Greek hybris, pride or outrage."
-  },
-  {
-    "card_number": "220",
+    "card_number": "204",
     "word": "Pallid",
     "part_of_speech": "adjective",
     "definition": "Pale, weak, or lacking intensity.",
@@ -2200,7 +2040,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin pallidus, pale."
   },
   {
-    "card_number": "221",
+    "card_number": "205",
     "word": "Obstinate",
     "part_of_speech": "adjective",
     "definition": "Stubbornly refusing to change.",
@@ -2210,7 +2050,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin obstinare, persist."
   },
   {
-    "card_number": "222",
+    "card_number": "206",
     "word": "Quotidian",
     "part_of_speech": "adjective",
     "definition": "Ordinary or occurring every day.",
@@ -2220,7 +2060,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin quotidianus, daily."
   },
   {
-    "card_number": "223",
+    "card_number": "207",
     "word": "Propensity",
     "part_of_speech": "noun",
     "definition": "A natural tendency or inclination.",
@@ -2230,7 +2070,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin propensus, inclined."
   },
   {
-    "card_number": "224",
+    "card_number": "208",
     "word": "Rectify",
     "part_of_speech": "verb",
     "definition": "To correct or make right.",
@@ -2240,7 +2080,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin rectus, right + facere, make."
   },
   {
-    "card_number": "225",
+    "card_number": "209",
     "word": "Rapport",
     "part_of_speech": "noun",
     "definition": "A friendly, trusting relationship.",
@@ -2250,7 +2090,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "French rapporter, bring back; relation."
   },
   {
-    "card_number": "226",
+    "card_number": "210",
     "word": "Inaugurate",
     "part_of_speech": "verb",
     "definition": "To begin formally or introduce into office.",
@@ -2260,7 +2100,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin augur, omen reader."
   },
   {
-    "card_number": "227",
+    "card_number": "211",
     "word": "Loquacious",
     "part_of_speech": "adjective",
     "definition": "Very talkative.",
@@ -2270,7 +2110,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin loqui, speak."
   },
   {
-    "card_number": "228",
+    "card_number": "212",
     "word": "Fledgling",
     "part_of_speech": "noun",
     "definition": "A beginner or newly developed person or organization.",
@@ -2280,7 +2120,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Old English fleogan, fly + -ling."
   },
   {
-    "card_number": "229",
+    "card_number": "213",
     "word": "Incessant",
     "part_of_speech": "adjective",
     "definition": "Continuing without interruption.",
@@ -2290,7 +2130,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin in-, not + cessare, stop."
   },
   {
-    "card_number": "230",
+    "card_number": "214",
     "word": "Recapitulate",
     "part_of_speech": "verb",
     "definition": "To summarize or repeat the main points.",
@@ -2300,7 +2140,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin re-, again + capitulum, heading."
   },
   {
-    "card_number": "231",
+    "card_number": "215",
     "word": "Fastidious",
     "part_of_speech": "adjective",
     "definition": "Very attentive to detail and hard to please.",
@@ -2310,7 +2150,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin fastidium, disgust or disdain."
   },
   {
-    "card_number": "232",
+    "card_number": "216",
     "word": "Pervasive",
     "part_of_speech": "adjective",
     "definition": "Spreading widely throughout an area or group.",
@@ -2320,7 +2160,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin per-, through + vadere, go."
   },
   {
-    "card_number": "233",
+    "card_number": "217",
     "word": "Reimburse",
     "part_of_speech": "verb",
     "definition": "To pay back money spent or lost.",
@@ -2330,7 +2170,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "re-, back + bourse, purse or money bag."
   },
   {
-    "card_number": "234",
+    "card_number": "218",
     "word": "Pinnacle",
     "part_of_speech": "noun",
     "definition": "The highest point or level.",
@@ -2340,7 +2180,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin pinnaculum, small peak."
   },
   {
-    "card_number": "235",
+    "card_number": "219",
     "word": "Placate",
     "part_of_speech": "verb",
     "definition": "To calm someone who is angry.",
@@ -2350,7 +2190,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin placare, calm."
   },
   {
-    "card_number": "236",
+    "card_number": "220",
     "word": "Perennial",
     "part_of_speech": "adjective",
     "definition": "Lasting for a long time or recurring often.",
@@ -2360,17 +2200,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin per, through + annus, year."
   },
   {
-    "card_number": "237",
-    "word": "Opulent",
-    "part_of_speech": "adjective",
-    "definition": "Rich, luxurious, or lavish.",
-    "sample_sentence": "The hotel lobby was opulent, with marble floors and chandeliers.",
-    "synonyms_top_3": "luxurious, lavish, sumptuous",
-    "antonyms_top_3": "plain, poor, austere",
-    "root": "Latin opulentus, wealthy."
-  },
-  {
-    "card_number": "238",
+    "card_number": "221",
     "word": "Exigent",
     "part_of_speech": "adjective",
     "definition": "Urgent or requiring immediate attention.",
@@ -2380,17 +2210,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin exigere, demand or drive out."
   },
   {
-    "card_number": "239",
-    "word": "Imperative",
-    "part_of_speech": "adjective",
-    "definition": "Urgent, essential, or absolutely necessary.",
-    "sample_sentence": "It is imperative that the team check the data before publishing.",
-    "synonyms_top_3": "essential, urgent, mandatory",
-    "antonyms_top_3": "optional, unimportant, discretionary",
-    "root": "Latin imperare, command."
-  },
-  {
-    "card_number": "240",
+    "card_number": "222",
     "word": "Malady",
     "part_of_speech": "noun",
     "definition": "An illness or serious problem.",
@@ -2400,7 +2220,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Old French maladie, illness."
   },
   {
-    "card_number": "241",
+    "card_number": "223",
     "word": "Accede",
     "part_of_speech": "verb",
     "definition": "To agree to a request or assume office.",
@@ -2410,7 +2230,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin ad-, to + cedere, go or yield."
   },
   {
-    "card_number": "242",
+    "card_number": "224",
     "word": "Punctilious",
     "part_of_speech": "adjective",
     "definition": "Strictly attentive to rules or details.",
@@ -2420,7 +2240,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin punctum, point."
   },
   {
-    "card_number": "243",
+    "card_number": "225",
     "word": "Entail",
     "part_of_speech": "verb",
     "definition": "To involve or require as a necessary result.",
@@ -2430,17 +2250,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Old French taillier, cut or limit."
   },
   {
-    "card_number": "244",
-    "word": "Preposterous",
-    "part_of_speech": "adjective",
-    "definition": "Absurd or contrary to reason.",
-    "sample_sentence": "The claim was so preposterous that no one believed it.",
-    "synonyms_top_3": "absurd, ridiculous, outrageous",
-    "antonyms_top_3": "reasonable, plausible, sensible",
-    "root": "Latin prae, before + posterus, after."
-  },
-  {
-    "card_number": "245",
+    "card_number": "226",
     "word": "Quandary",
     "part_of_speech": "noun",
     "definition": "A state of uncertainty about what to do.",
@@ -2450,7 +2260,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Origin uncertain; English state of doubt."
   },
   {
-    "card_number": "246",
+    "card_number": "227",
     "word": "Proclivity",
     "part_of_speech": "noun",
     "definition": "A natural tendency to do something.",
@@ -2460,7 +2270,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin pro-, forward + clivus, slope."
   },
   {
-    "card_number": "247",
+    "card_number": "228",
     "word": "Pastoral",
     "part_of_speech": "adjective",
     "definition": "Related to country life, shepherds, or rural simplicity.",
@@ -2470,7 +2280,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin pastor, shepherd."
   },
   {
-    "card_number": "248",
+    "card_number": "229",
     "word": "Turbulent",
     "part_of_speech": "adjective",
     "definition": "Disorderly, unstable, or violently moving.",
@@ -2480,7 +2290,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin turba, crowd or disorder."
   },
   {
-    "card_number": "249",
+    "card_number": "230",
     "word": "Stymie",
     "part_of_speech": "verb",
     "definition": "To block or hinder progress.",
@@ -2490,7 +2300,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Scottish golf term for a blocking ball."
   },
   {
-    "card_number": "250",
+    "card_number": "231",
     "word": "Discern",
     "part_of_speech": "verb",
     "definition": "To perceive, recognize, or distinguish.",
@@ -2500,7 +2310,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin dis-, apart + cernere, separate."
   },
   {
-    "card_number": "251",
+    "card_number": "232",
     "word": "Exhilarated",
     "part_of_speech": "adjective",
     "definition": "Very happy, excited, and energized.",
@@ -2510,17 +2320,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin exhilarare, make cheerful."
   },
   {
-    "card_number": "252",
-    "word": "Apathetic",
-    "part_of_speech": "adjective",
-    "definition": "Showing little interest, concern, or emotion.",
-    "sample_sentence": "The apathetic audience barely reacted to the announcement.",
-    "synonyms_top_3": "indifferent, uninterested, listless",
-    "antonyms_top_3": "interested, passionate, concerned",
-    "root": "Greek a-, without + pathos, feeling."
-  },
-  {
-    "card_number": "253",
+    "card_number": "233",
     "word": "Barter",
     "part_of_speech": "verb",
     "definition": "To trade goods or services without money.",
@@ -2530,7 +2330,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Old French barater, exchange or haggle."
   },
   {
-    "card_number": "254",
+    "card_number": "234",
     "word": "Punitive",
     "part_of_speech": "adjective",
     "definition": "Intended as punishment.",
@@ -2540,7 +2340,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin punire, punish."
   },
   {
-    "card_number": "255",
+    "card_number": "235",
     "word": "Recompense",
     "part_of_speech": "verb",
     "definition": "To repay or compensate for loss or effort.",
@@ -2550,7 +2350,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin re-, back + compensare, weigh together."
   },
   {
-    "card_number": "256",
+    "card_number": "236",
     "word": "Obfuscate",
     "part_of_speech": "verb",
     "definition": "To make something unclear or confusing.",
@@ -2560,7 +2360,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin ob-, over + fuscare, darken."
   },
   {
-    "card_number": "257",
+    "card_number": "237",
     "word": "Paradigm",
     "part_of_speech": "noun",
     "definition": "A model, pattern, or typical example.",
@@ -2570,7 +2370,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Greek paradeigma, pattern or example."
   },
   {
-    "card_number": "258",
+    "card_number": "238",
     "word": "Philanthropic",
     "part_of_speech": "adjective",
     "definition": "Charitable or intended to help others.",
@@ -2580,7 +2380,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Greek philos, loving + anthropos, human."
   },
   {
-    "card_number": "259",
+    "card_number": "239",
     "word": "Obtain",
     "part_of_speech": "verb",
     "definition": "To get or acquire.",
@@ -2590,7 +2390,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin ob-, toward + tenere, hold."
   },
   {
-    "card_number": "260",
+    "card_number": "240",
     "word": "Servile",
     "part_of_speech": "adjective",
     "definition": "Overly submissive or eager to obey.",
@@ -2600,7 +2400,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin servus, slave."
   },
   {
-    "card_number": "261",
+    "card_number": "241",
     "word": "Reverberate",
     "part_of_speech": "verb",
     "definition": "To echo repeatedly or have a continuing effect.",
@@ -2610,7 +2410,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Latin re-, back + verberare, beat."
   },
   {
-    "card_number": "262",
+    "card_number": "242",
     "word": "Coy",
     "part_of_speech": "adjective",
     "definition": "Pretending to be shy or unwilling to reveal information.",
@@ -2620,7 +2420,7 @@ window.STEPHANIE_SAT_CARDS = [
     "root": "Old French coi, quiet or still."
   },
   {
-    "card_number": "263",
+    "card_number": "243",
     "word": "Dire",
     "part_of_speech": "adjective",
     "definition": "Extremely serious, urgent, or terrible.",
@@ -2628,5 +2428,95 @@ window.STEPHANIE_SAT_CARDS = [
     "synonyms_top_3": "terrible, urgent, grave",
     "antonyms_top_3": "minor, hopeful, harmless",
     "root": "Latin dirus, fearful or dreadful."
+  },
+  {
+    "card_number": "244",
+    "word": "Zenith",
+    "part_of_speech": "noun",
+    "definition": "the highest point of something",
+    "sample_sentence": "Her career reached its zenith after the award.",
+    "synonyms_top_3": "height, high point, peak",
+    "antonyms_top_3": "bottom, base, nadir",
+    "root": "Arabic samt, path or direction, source of zenith."
+  },
+  {
+    "card_number": "245",
+    "word": "Tenacious",
+    "part_of_speech": "adjective",
+    "definition": "aggressively persistent at something",
+    "sample_sentence": "The tenacious lawyer kept asking questions until the truth emerged.",
+    "synonyms_top_3": "firm, tight, strong",
+    "antonyms_top_3": "loose, weak, yielding",
+    "root": "Latin tenax/tenere, holding fast."
+  },
+  {
+    "card_number": "246",
+    "word": "Scintillating",
+    "part_of_speech": "adjective",
+    "definition": "brilliant; lively; stimulating; witty",
+    "sample_sentence": "The guest gave a scintillating speech that made the room laugh.",
+    "synonyms_top_3": "sparkling, shining, bright",
+    "antonyms_top_3": "dull, boring, matte",
+    "root": "Latin scintilla, spark."
+  },
+  {
+    "card_number": "247",
+    "word": "Salient",
+    "part_of_speech": "adjective",
+    "definition": "prominent; of notable significance",
+    "sample_sentence": "The report highlighted the salient points before the meeting.",
+    "synonyms_top_3": "important, major, principal",
+    "antonyms_top_3": "inconspicuous, insignificant, unimportant",
+    "root": "Latin salire, to leap or jump."
+  },
+  {
+    "card_number": "248",
+    "word": "Supercilious",
+    "part_of_speech": "adjective",
+    "definition": "aloof and superior",
+    "sample_sentence": "His supercilious tone made the new students uncomfortable.",
+    "synonyms_top_3": "arrogant, haughty, snobbish",
+    "antonyms_top_3": "humble, modest, respectful",
+    "root": "Latin supercilium, eyebrow; linked to raised-eyebrow pride."
+  },
+  {
+    "card_number": "249",
+    "word": "Tenuous",
+    "part_of_speech": "adjective",
+    "definition": "flimsy; weak; of little substance",
+    "sample_sentence": "The argument was tenuous because it relied on guesses.",
+    "synonyms_top_3": "fragile, weak, flimsy",
+    "antonyms_top_3": "strong, thick, substantial",
+    "root": "Latin tenuis, thin or slender."
+  },
+  {
+    "card_number": "250",
+    "word": "Truncate",
+    "part_of_speech": "verb",
+    "definition": "to shorten, often by cutting off",
+    "sample_sentence": "The editor had to truncate the article to fit the page.",
+    "synonyms_top_3": "cut, pare, reduce",
+    "antonyms_top_3": "lengthen, extend, expand",
+    "root": "Latin truncare, to cut off or maim."
+  },
+  {
+    "card_number": "251",
+    "word": "Serendipity",
+    "part_of_speech": "noun",
+    "definition": "luck; finding good things you were not even looking for",
+    "sample_sentence": "By serendipity, we found the perfect cafe while lost.",
+    "synonyms_top_3": "good luck, chance, coincidence",
+    "antonyms_top_3": "mishap, bad luck, misfortune",
+    "root": "Coined from Serendip, old name for Sri Lanka."
+  },
+  {
+    "card_number": "252",
+    "word": "Venerable",
+    "part_of_speech": "adjective",
+    "definition": "respectable because of age or achievements",
+    "sample_sentence": "The venerable professor still advised young scientists.",
+    "synonyms_top_3": "respected, revered, honored",
+    "antonyms_top_3": "dishonorable, disreputable, irreverent",
+    "root": "Latin venerari, to worship or revere."
   }
 ];
