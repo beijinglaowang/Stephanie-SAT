@@ -1,6 +1,8 @@
 const GITHUB_STATE_URL = "https://api.github.com/repos/beijinglaowang/Stephanie-SAT/contents/data/state.json";
 const LOCAL_STATE_KEY = "stephanieSatWordStates";
 const TOKEN_KEY = "stephanieSatGithubToken";
+const KNOWN_LABEL = "\u2713\u2713\u2713";
+const UNKNOWN_LABEL = "???";
 
 const state = {
   cards: [],
@@ -116,7 +118,7 @@ function ensureValidIndex() {
 }
 
 function renderEmpty() {
-  const label = state.mode === "known" ? "Known" : "Unknown";
+  const label = state.mode === "known" ? KNOWN_LABEL : UNKNOWN_LABEL;
   elements.word.textContent = `No ${label} Words`;
   elements.definition.textContent = "";
   elements.synonyms.textContent = "";
@@ -145,7 +147,7 @@ function render() {
   }
 
   const known = getWordState(card) === 0;
-  const stateLabel = known ? "Known" : "Unknown";
+  const stateLabel = known ? KNOWN_LABEL : UNKNOWN_LABEL;
   elements.word.textContent = card.word;
   elements.definition.textContent = `(${card.pos}) ${card.definition}`;
   elements.synonyms.textContent = card.synonyms;
