@@ -11,3 +11,5 @@ A static GitHub Pages vocabulary flashcard app.
 The flashcard data is generated from `outputs/vocabulary_flashcards_duplex_10cards_full_a4_source.csv`.
 The app loads `data/cards.js`; `data/cards.json` is kept as an inspectable source copy.
 Shared state is stored in `data/state.json`.
+
+To save across browsers, use the in-app `Setup sync` button and paste a fine-grained GitHub token with repository Contents read/write access for `beijinglaowang/Stephanie-SAT`. The token is stored only in that browser.
