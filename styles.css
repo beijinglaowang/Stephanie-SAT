@@ -239,28 +239,6 @@ h1 {
   transform: rotateY(180deg);
 }
 
-.state-badge {
-  position: absolute;
-  top: clamp(14px, 2.8vw, 24px);
-  right: clamp(14px, 2.8vw, 24px);
-  border: 1px solid rgba(23, 25, 31, 0.12);
-  border-radius: 999px;
-  padding: 6px 11px;
-  background: rgba(255, 253, 248, 0.8);
-  color: var(--accent-strong);
-  font-size: 0.76rem;
-  font-weight: 900;
-  text-transform: uppercase;
-}
-
-.state-badge.is-known {
-  color: #275236;
-}
-
-.state-badge.is-unknown {
-  color: #8b3d30;
-}
-
 .card.is-flipped .card-front {
   transform: rotateY(-180deg);
 }

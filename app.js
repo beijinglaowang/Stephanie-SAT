@@ -1,8 +1,6 @@
 const GITHUB_STATE_URL = "https://api.github.com/repos/beijinglaowang/Stephanie-SAT/contents/data/state.json";
 const LOCAL_STATE_KEY = "stephanieSatWordStates";
 const TOKEN_KEY = "stephanieSatGithubToken";
-const KNOWN_LABEL = "\u2713";
-const UNKNOWN_LABEL = "?";
 
 const state = {
   cards: [],
@@ -33,8 +31,6 @@ const elements = {
   unknownFilter: document.querySelector("#unknownFilter"),
   knownCount: document.querySelector("#knownCount"),
   unknownCount: document.querySelector("#unknownCount"),
-  frontBadge: document.querySelector("#frontBadge"),
-  backBadge: document.querySelector("#backBadge"),
   syncToggle: document.querySelector("#syncToggle"),
   syncPanel: document.querySelector("#syncPanel"),
   syncStatus: document.querySelector("#syncStatus"),
@@ -118,7 +114,7 @@ function ensureValidIndex() {
 }
 
 function renderEmpty() {
-  const label = state.mode === "known" ? KNOWN_LABEL : UNKNOWN_LABEL;
+  const label = state.mode === "known" ? "known" : "unknown";
   elements.word.textContent = `No ${label} Words`;
   elements.definition.textContent = "";
   elements.synonyms.textContent = "";
@@ -129,8 +125,6 @@ function renderEmpty() {
   elements.progress.style.width = "0%";
   elements.go.disabled = true;
   elements.card.classList.remove("is-flipped");
-  elements.frontBadge.textContent = label;
-  elements.backBadge.textContent = label;
 }
 
 function render() {
@@ -146,8 +140,6 @@ function render() {
     return;
   }
 
-  const known = getWordState(card) === 0;
-  const stateLabel = known ? KNOWN_LABEL : UNKNOWN_LABEL;
   elements.word.textContent = card.word;
   elements.definition.textContent = `(${card.pos}) ${card.definition}`;
   elements.synonyms.textContent = card.synonyms;
@@ -157,12 +149,6 @@ function render() {
   elements.counter.textContent = `${card.number} / ${state.cards.length}`;
   elements.progress.style.width = `${(card.number / state.cards.length) * 100}%`;
   elements.card.classList.toggle("is-flipped", state.flipped);
-  elements.frontBadge.textContent = stateLabel;
-  elements.backBadge.textContent = stateLabel;
-  elements.frontBadge.classList.toggle("is-known", known);
-  elements.backBadge.classList.toggle("is-known", known);
-  elements.frontBadge.classList.toggle("is-unknown", !known);
-  elements.backBadge.classList.toggle("is-unknown", !known);
   elements.go.disabled = false;
   document.title = `${card.word} - Stephanie SAT`;
 }
