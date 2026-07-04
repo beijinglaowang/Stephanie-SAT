@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#f5f1ea" />
     <title>Stephanie SAT</title>
-    <link rel="stylesheet" href="styles.css?v=6" />
+    <link rel="stylesheet" href="styles.css?v=7" />
   </head>
   <body>
     <main class="app-shell">
@@ -27,12 +27,14 @@
           <strong id="knownCount">0</strong>
         </button>
         <button class="sync-pill" id="syncToggle" type="button">
-          <span id="syncStatus">Sync</span>
+          <span id="syncStatus">Setup sync</span>
         </button>
       </section>
 
       <section class="sync-panel" id="syncPanel" aria-label="Sync settings" hidden>
+        <p class="sync-help">Paste a fine-grained GitHub token with Contents read/write for this repo.</p>
         <input id="syncToken" type="password" autocomplete="off" placeholder="GitHub token" />
+        <a class="mini-button ghost" href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noreferrer">Create</a>
         <button class="mini-button" id="saveToken" type="button">Save</button>
         <button class="mini-button ghost" id="clearToken" type="button">Clear</button>
       </section>
@@ -84,7 +86,7 @@
       </nav>
     </main>
 
-    <script src="data/cards.js?v=6"></script>
-    <script src="app.js?v=6"></script>
+    <script src="data/cards.js?v=7"></script>
+    <script src="app.js?v=7"></script>
   </body>
 </html>
